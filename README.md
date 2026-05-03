@@ -24,7 +24,10 @@ A complete step-by-step guide to install and run Traccar GPS tracking server on 
 Check if Docker is already installed:
 
 ```bash
+sudo apt update && sudo apt upgrade -y
+
 docker --version
+
 ```
 
 If the command is not found, proceed to Step 2. Otherwise, skip to Step 3.
