@@ -164,7 +164,7 @@ http://<YOUR_PUBLIC_IP>:8082
 
 Example:
 ```
-http://129.159.235.74:8082
+http://68.233.108.83:8082
 ```
 
 ### Log In with Default Credentials
