@@ -144,6 +144,23 @@ curl ifconfig.me
 http://gps.busvahan.in
 ```
 
+## Edit traccar.xml in VS Code
+
+```
+Connect using Remote SSH form bottom left corner in the VS Code
+Once after connection, copy file to VS Code using
+docker cp traccar:/opt/traccar/conf/traccar.xml ~/traccar.xml
+docker cp ~/traccar.xml traccar:/opt/traccar/conf/traccar.xml
+
+Once done copying back restart docker
+docker restart traccar
+docker ps
+docker logs -f traccar
+
+http://gps.busvahan.in
+```
+
+
 Login:
 - admin / admin
 
